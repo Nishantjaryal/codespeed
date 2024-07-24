@@ -1,4 +1,4 @@
-#Function Information
+# Function Information
 
 
 log: Logs result on console
@@ -11,7 +11,7 @@ getInteger:  returns interger value
 
 
 
-##for testing non parameterized code
+## Testing non parameterized code
 
 ```
 function Example() {
@@ -26,7 +26,7 @@ testFn(Example, {
 })
 ```
 
-##for testing parameterized code
+## Testing parameterized code
 
 ```
 function exampleFunc(a, b) {
