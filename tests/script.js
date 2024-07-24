@@ -1,22 +1,17 @@
-const {testFn,testParameterizedFn} = require("../package/FuncBench")
+const {testFn,testParameterizedFn} = require("codespeed")
 
 // Example usage
 
+function exampleFunc(a, b) {
+    return a + b;
+}
 
-
-// function exampleFunc(a, b) {
-//     return a + b;
-// }
-
-// const result = testParameterizedFn(exampleFunc, [5, 3], {
-//     log: true,
-//     functionIterations: 100,
-//     testIterations: 10,
-//     getInteger: false
-// });
-
-
-
+const result = testParameterizedFn(exampleFunc, [5, 3], {
+    log: true,
+    functionIterations: 100,
+    testIterations: 10,
+    getInteger: false
+});
 
 
 

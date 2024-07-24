@@ -14,6 +14,9 @@ getInteger:  returns interger value
 ## Testing non parameterized code
 
 ```
+const {testFn} = require("codespeed")
+
+
 function Example() {
     console.log("hello")
 }
@@ -29,6 +32,9 @@ testFn(Example, {
 ## Testing parameterized code
 
 ```
+const {testParameterizedFn} = require("codespeed")
+
+
 function exampleFunc(a, b) {
     return a + b;
 }
